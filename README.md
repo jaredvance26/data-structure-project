@@ -1,6 +1,6 @@
 # DATA STRUCTURE OUTLINE 
 
-### [Welcome]()
+### [Welcome](Intro.md)
 * Introduction/Contact
 
 ### [Stacks](Stacks.md)

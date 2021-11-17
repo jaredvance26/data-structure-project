@@ -1,16 +1,26 @@
 # DATA STRUCTURE OUTLINE 
 
-## [Stacks](Stacks.md)
-*
-*
-*
+### [Welcome]()
+* Introduction/Contact
 
-## [Linked Lists](Linkedlists.md)
-*
-*
-*
+### [Stacks](Stacks.md)
+* Introduction
+* Examples of Stacks
+* Performance
+* Problem to solve
+* Conclusion
 
-## [Trees](Trees.md)
-*
-*
-*
+
+### [Linked Lists](Linkedlists.md)
+* Introduction
+* Examples of Linked lists
+* Performance
+* Conclusion
+
+### [Trees](Trees.md)
+* Introduction
+* Example of Linked lists
+* Performance
+* Conclusion
+
+### [Big-O-Notation](Big_o_notation.md)

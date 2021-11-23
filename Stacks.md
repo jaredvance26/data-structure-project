@@ -5,7 +5,8 @@ Stacks are a data structure with the behavior LIFO (Last in, First out). We can 
 
 
 ![Stack Diagram](images/stack.webp)
-### Plates example 
+#### Plates example 
+
 If you have a stack of plates, the first one you pick up goes becomes bottom. As you accumulate more plates then what happens when you need to set one down? You don't take it from the bottom, but rather the top. The same goes with stacks in data structures. 
 
 ## Examples of Stacks
@@ -22,7 +23,7 @@ stack.append('b')
 stack.append('c')
 ```
 
-if you printed the stack it would result would be the following:
+If you printed the stack it would result would be the following:
 
 `['a','b','c']`
 
@@ -37,10 +38,27 @@ stack.pop()
 
 ## Performance
 
+#### Size Function
+
+<strong>Size</strong> = .len()
+```
+stack = ['a', 'b', 'c']
+size = len(stack)
+```
+In this example, the size would return 3. 
+
+
+
+|Function|Performance|
+|-------------|-------------|
+|.append()|O(1)|
+| .pop()|O(1)| 
+|.len()|O(1)|
+
 
 ## Stacks Prove
 
 ## Conclusion
 
 
-##### [Return Home](README.md)
+### Return  [Home](README.md)

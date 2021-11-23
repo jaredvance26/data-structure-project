@@ -15,7 +15,7 @@ To <strong>create</strong> a stack, simply initalize a list.
 
 `stack = []`
 
-To <strong>add</strong> to the stack, use the append function.
+To <strong>add</strong> to the stack, use the append() function.
 
 ```
 stack.append('a')
@@ -27,17 +27,13 @@ If you printed the stack it would result would be the following:
 
 `['a','b','c']`
 
-To <strong>remove</strong> from the stack, use the pop function.
+To <strong>remove</strong> from the stack, use the pop() function.
 
 ```
 stack.pop()
 ```
 
-## Performance
-
-#### Size Function
-
-<strong>Size</strong> = .len()
+To find the <strong>size</strong> use the len() function
 ```
 stack = ['a', 'b', 'c']
 size = len(stack)
@@ -45,6 +41,7 @@ size = len(stack)
 In this example, the size would return 3. 
 
 
+## Performance
 
 |Function|Performance|
 |-------------|-------------|

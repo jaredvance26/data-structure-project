@@ -3,7 +3,7 @@
 ### [Welcome](Intro.md)
 * Introduction/Contact
 
-### [Stacks](Stacks.md)
+### [Stacks](stacks/Stacks.md)
 * Introduction
 * Examples of Stacks
 * Performance

@@ -1,9 +1,7 @@
 # Stacks
 
 ## Introduction
-Stacks are a data structure with the behavior LIFO (Last in, First out). We can use stacks for a lot of operations with a reasonable performance. 
-
-Stacks have various functions. To add to the stack, you use the append function. To delete from a stack, use the pop function. 
+Stacks are a data structure with the behavior LIFO (Last in, First out). We can use stacks for a lot of operations with a reasonable performance. Stacks have various functions. To add to the stack, you use the append function. To delete from a stack, use the pop function. 
 
 
 ![Stack Diagram](images/stack.webp)
@@ -13,18 +11,23 @@ If you have a stack of plates, the first one you pick up goes becomes bottom. As
 ## Examples of Stacks
 
 To <strong>create</strong> a stack, simply initalize a list.
+
 `stack = []`
 
 To <strong>add</strong> to the stack, use the append function.
+
 ```
 stack.append('a')
 stack.append('b')
 stack.append('c')
 ```
+
 if you printed the stack it would result would be the following:
+
 `['a','b','c']`
 
 To <strong>delete</strong> from the stack, use the pop function.
+
 ```
 stack.pop()
 ```

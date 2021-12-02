@@ -11,7 +11,7 @@
 * Conclusion
 
 
-### [Linked Lists](Linkedlists.md)
+### [Linked Lists](linked_lists/Linkedlists.md)
 * Introduction
 * Examples of Linked lists
 * Performance

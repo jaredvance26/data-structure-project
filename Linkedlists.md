@@ -1,7 +1,0 @@
-# Linked Lists
-
-
-
-
-
-##### [Return Home](README.md)

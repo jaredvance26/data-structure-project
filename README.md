@@ -20,6 +20,7 @@
 
 ### [Trees](Trees.md)
 * Introduction
+* Recurrsion
 * Example of Linked lists
 * Performance
 * Trees Prove

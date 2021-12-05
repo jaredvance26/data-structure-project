@@ -26,10 +26,11 @@ class LinkedList:
 
     
 ```
+
 ### Inserting into Linked Lists
 Inserting into linked lists requires making a function inside the Linked List class. The powerful thing about linked lists is the O(1) performance except when inserting or deleting from the middle.
 
-When inserting into a linked list, one needs to assign reasign the previous node's next and the next nodes previous. If you trying to insert from the top, then you need to make the new node the head while if you are inserting at the end, the new node becomes the tail.
+When inserting into a linked list, one needs to assign reasign the previous node's next and the next nodes previous to the target node. If you trying to insert from the top, then you need to make the new node the head while if you are inserting at the end, the new node becomes the tail.
 
 #### Insert Head Example
 If you were to insert a new head with data already in it, it would look like this:
@@ -57,13 +58,30 @@ def remove_head(self):
     self.head.next.prev = None
     self.head = self.head.next
 ```
+For the <strong>prove assignment</strong>, you will be removing the tail. 
 
 ## Performance
 
+|Operations|Performance|
+|-------------|-------------|
+|inserting the head|O(1)|
+|inserting the middle |O(n)| 
+|inserting the tail |O(1)|
+|removing the head|O(1) |
+|removing in the middle|O(n) |
+|removing the tail|O(1) |
+
 ## Linked_Lists Prove
+The [prove](linked_lists_prove.py) assignment contains to problems.
+
+<strong>Prove 1 </strong>, you complete a function inserting the tail. <strong>Prove 2 </strong>, you complete a function remvoving the tail.
+
+
+After trying for <strong>at least 30 minutes</strong>, use the [solution](linked_lists_solution.py) for reference.
 
 ## Conclusion
 
+Concluding, linked lists are an overall very effective way to store data. In has better performance than dynamic data structures in total. Although they are more work to set up, they are better in the long run.
 
 
 

@@ -85,4 +85,4 @@ Concluding, linked lists are an overall very effective way to store data. In has
 
 
 
-#### [Return Home](README.md)
+#### [Return Home](/README.md)

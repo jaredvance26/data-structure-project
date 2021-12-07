@@ -14,7 +14,7 @@ def say_hello():
 In this example, "hello" will be outputed until there is a recursion error displayed. But without the error, the "hello" statement would be outputed forever. Because of that, we need a <strong>base case</strong>. 
 
 
-![Gif](giphy.gif)
+![Gif](images/giphy.gif)
 
 A base case is a situation which allows the function call to end. 
 

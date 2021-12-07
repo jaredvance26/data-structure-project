@@ -18,15 +18,15 @@
 * Linked Lists Prove
 * Conclusion
 
-### [Trees](Trees.md)
+### [Trees](trees/Trees.md)
 * Introduction
 * Recurrsion
-* Example of Linked lists
+* Example of Trees
 * Performance
 * Trees Prove
 * Conclusion
 
-### [Big-O-Notation](Big_o_notation.md)
+### [Big-O-Notation](big_o_notation/Big_o_notation.md)
 * Introduction
 * Performance Levels
-* Graphs
+

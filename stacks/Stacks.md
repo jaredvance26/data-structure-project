@@ -9,6 +9,8 @@ Stacks are a data structure with the behavior LIFO (Last in, First out). We can 
 
 If you have a stack of plates, the first one you pick up goes becomes bottom. As you accumulate more plates then what happens when you need to set one down? You don't take it from the bottom, but rather the top. The same goes with stacks in data structures. 
 
+![plates](/stacks/images/download.jpg)
+
 ## Examples of Stacks
 
 To <strong>create</strong> a stack, simply initalize a list.

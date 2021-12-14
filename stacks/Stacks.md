@@ -66,4 +66,5 @@ After trying for <strong>at least 30 minutes</strong>, use the [solution](stacks
 Stacks are a useful data structure for holding smaller amounts of data. One of the main drawbacks is that the data is not sorted and inserting in the middle would be an O(n) occurence. It has many useful functions though for example, the typical "undo" feature.
 
 
-### Return [Home](/README.md)
+#### Return [Home](/README.md)
+#### Next: [Linked Lists](/linked_lists/Linkedlists.md)

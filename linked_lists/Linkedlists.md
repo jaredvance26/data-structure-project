@@ -84,5 +84,5 @@ After trying for <strong>at least 30 minutes</strong>, use the [solution](linked
 Concluding, linked lists are an overall very effective way to store data. In has better performance than dynamic data structures in total. Although they are more work to set up, they are better in the long run.
 
 
-
-#### [Return Home](/README.md)
+#### Return [Home](/README.md)
+#### Next: [Trees](/trees/Trees.md)

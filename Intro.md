@@ -3,4 +3,4 @@ Hi my name is Jared Vance. I am an aspiring full-stack developer. I love coding 
 
 
 
-##### [Return Home](/README.md)
+##### Return [Home](/README.md)

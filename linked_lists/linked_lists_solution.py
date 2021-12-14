@@ -13,11 +13,14 @@ class LinkedList:
         self.tail = None
     
     def insert_head(self,value):
+
         head = LinkedList.Node(value)
 
         if self.head ==  None:
+
             self.head = head
             self.tail = head
+
 
         else:
             head.next = self.head
@@ -26,11 +29,21 @@ class LinkedList:
 
     ############# Prove 1 ###############
     def insert_tail(self,value):
+        
+        # First, create a new node you will use as the tail
         tail = LinkedList.Node(value)
+    
+        # If there is no tail (which means the linked list is empty), set the head and tail to
+        # the new node you created
 
         if self.tail == None:
             self.head = tail
             self.tail = tail
+
+        # When there is already a tail:
+            # Step 1 - Assign new node's prev to the current tail
+            # Step 2 - Assign the current tail's next to the new node
+            # Step 3 - Set the tail to the new node 
         else:
             tail.prev = self.tail
             self.tail.next = tail
@@ -48,11 +61,16 @@ class LinkedList:
 
     ############# Prove 2 ###############
     def remove_tail(self):
-        
+
+        # If head == tail (which means there is one item in the linked list)
+        # set both the head and tail to none emptying the list.
         if self.head == self.tail:
             self.head == None
             self.tail == None
         
+        # When there is more than one item in the linked list:
+            # Step 1 - Assign the prev to the tail's next to None
+            # Step 2 - Set the tail as the current tails previous
         else:
             self.tail.prev.next = None
             self.tail = self.tail.prev

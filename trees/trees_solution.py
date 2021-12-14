@@ -28,14 +28,33 @@ class BST:
     ###############################
     def _insert(self,data,node):
 
+        # When inserting into a tree, you want to first find if the
+        # number is greater or lesser than the current node value. 
+
+        # If the number is less than the current node data, then 
+        # you see if there is node to the left of it. If there isn't,
+        # You can insert the new node there. 
+
         if data < node.data:
             if node.left == None:
                 node.left = BST.Node(data)
+
+            # If there is a node to the left of the current node, then you 
+            # have to recursivly call the function with the that left node as 
+            # an argument.
             else:
                 self._insert(data, node.left)
+
+        # If the number is greater than the current node data, then 
+        # you see if there is node to the right of it. If there isn't,
+        # You can insert the new node there. 
         elif data > node.data:
             if node.right == None:
                 node.right = BST.Node(data)
+
+            # If there is a node to the right of the current node, then you 
+            # have to recursivly call the function with the that right node as an 
+            # argument.
             else:
                 self._insert(data, node.right)
     ########### END ############
@@ -50,18 +69,30 @@ class BST:
 
     def _find_node(self, data, node):
 
+        # First you need to see if the number you are looking for is equal to the current node.
+        # If it is, it is in the tree! So return True
         if data == node.data:
             return True
 
+        # If the number you are looking for is greater than the current node, you first want to see
+        # if to the right of that node is empty. If it empty then you return False because the number you 
+        # are looking for isnt there.
         elif data > node.data:
             if node.right == None:
                 return False
+
+            # If there is a node to the right of the current node, then call it recursively. 
             else:
                 return self._find_node(data, node.right)
 
+        # If the number you are looking for is less than the current node, you first want to see
+        # if to the left of that node is empty. If it empty then you return False because the number you 
+        # are looking for isnt there.
         elif data < node.data:
             if node.left == None:
                 return False
+
+            # If there is a node to the right of the current node, then call it recursively. 
             else:
                 return self._find_node(data, node.left)   
     ########### END ############
